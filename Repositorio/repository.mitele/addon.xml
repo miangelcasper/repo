@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/xxxxxxxxxxxx/master/Repositorio/</datadir>
+<addon id="repository.mitele" name="repositorio mitele" version="1.0.1" provider-name="Yo Mismo">
+    <extension point="xbmc.addon.repository" name="mitele">
+        <info>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addon.xml</info>
+        <checksum>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/miangelcasper/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mi</summary>
+        <summary>Repositorio de mitele</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.mitele" name="repositorio mitele" version="1.0.1" provider-name="Yo Mismo">
+<addon id="repository.mitele" name="repositorio mitele" version="0.0.1" provider-name="miangelcasper">
     <extension point="xbmc.addon.repository" name="mitele">
         <info>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addons.xml.md5</checksum>

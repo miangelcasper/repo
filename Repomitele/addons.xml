@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.Catoal"
+       name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
+       version="5.4.0"
+       provider-name="Catoal">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por Catoal</summary>
+    <description>Catoal 2017</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
+    <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/xxxxxxxxxxxx/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Mi</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>

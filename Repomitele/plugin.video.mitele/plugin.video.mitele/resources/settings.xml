@@ -1,0 +1,24 @@
+﻿<settings>
+
+  <category label="Acerca de">
+	<setting type="lsep" label="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]" option="close" action="RunPlugin(plugin://plugin.video.kodispaintv/?mode=7)" />
+  </category>
+
+  <category label="General">
+    <setting id="save_location" type="folder"  label="Selecciona una ruta de descarga" default="false"/>
+    <setting id="use_thumb" type="bool" label="Usar miniatura como cartel" default="false" />
+    <setting id="logo-folderPath" type="folder"  label="Seleccionar directorio de logos" default="false"/>    	
+    <setting id="add_playlist" type="bool" label="Activar Multilink" default="false"/>
+    <setting id="ask_playlist_items" type="bool" label="Elegir Fuente de Video" default="false" />
+	
+    <setting id="debug" type="bool" label="Activa Modo Depuración de Add-on " default="false"/>
+    <setting id="1080pquality" label="Reproducir video 1080p bajo demanda si está disponible (no en vivo)" type="bool" default="true"/>
+    <setting id="donotshowbychannels" label="Ocultar Canales" type="bool" default="false"/>
+  </category>
+  
+  <category label="Control Parental">
+    <setting id="parentalblockedpin" label="Parental Block Pin" type="text"  option="hidden" default="1234" enable="true"/>
+    <setting id="parentalblocked" label="¿Está Activado el Control Parental?" type="bool" default="true" enable="true" visible="false"/>
+  </category>
+
+</settings>

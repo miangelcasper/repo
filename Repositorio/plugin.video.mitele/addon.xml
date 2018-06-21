@@ -24,7 +24,7 @@
   </extension>
 
       <extension point="xbmc.addon.repository" name="mitele">
-        <info>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addon.xml</info>
+        <info>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/miangelcasper/repo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/miangelcasper/master/Repositorio/</datadir>
     </extension>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.Catoal"
-       name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
-       version="5.4.0"
-       provider-name="Catoal">
+<addon id="plugin.video.mitele"
+       name="mitele"
+       version="1.0"
+       provider-name="miangelcasper">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -16,31 +16,43 @@
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Catoal</summary>
-    <description>Catoal 2017</description>
-    <platform>all</platform>
+		<summary>Tv- deportes- cine- series y mucho mas</summary>
+		<description>
+		Complemento de video basado en LiveStreamsPro
+		Puedes seguirme
+
+		AVISO LEGAL:
+
+		Este complemento no aloja ningun contenido mostrado.
+		Todo el contenido se encuentra libremente en internet.
+		No se acepta ninguna responsabilidad por el uso de este addon.
+
+		¡Disfruta!
+		</description>
+		<platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.1" provider-name="Yo Mismo">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/xxxxxxxxxxxx/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mi</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
+<addon id="repository.mitele" name="mitele repository" version="1.0" provider-name="miangelcasper">
+	<extension point="xbmc.addon.repository" name="mitele repository">
+		<info compressed="false">https://raw.githubusercontent.com/miangelcasper/repo/master/Repomitele/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/miangelcasper/repo/master/Repomitele/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/miangelcasper/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>mitele</summary>
+		<description>Repositorio creado para </description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>

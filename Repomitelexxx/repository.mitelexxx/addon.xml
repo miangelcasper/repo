@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.mitele" name="mitele repository" version="1.0" provider-name="miangelcasper">
+<addon id="repository.mitelexxx" name="mitelexxx repository" version="1.0" provider-name="miangelcasper">
 	<extension point="xbmc.addon.repository" name="mitele repository">
 		<info compressed="false">https://raw.githubusercontent.com/miangelcasper/repo/master/Repomitelexxx/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/miangelcasper/repo/master/Repomitelexxx/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/miangelcasper/repo/master/Repomitelexxx</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>mitele</summary>
-		<description>Repositorio creado para </description>
+		<summary>mitelexxx</summary>
+		<description>Repositorio xxx creado para </description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>

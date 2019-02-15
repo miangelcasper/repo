@@ -1,42 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mitelemovistar"
-       name="mitele"
-       version="1.0"
-       provider-name="miangelcasper">
+<addon id="plugin.video.mitelemovistar" name="mitelemovistar" version="11.1" provider-name="CASPER">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.livestreamer" />
     <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.routing" />
   </requires>
-  
-  <extension point="xbmc.python.pluginsource" library="default.py">
+  <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
-
   <extension point="xbmc.addon.metadata">
-		<summary>movistar</summary>
-		<description>
-		Complemento de video basado en LiveStreamsPro
-		Puedes seguirme 
-			
-		AVISO LEGAL:
-					
-		Este complemento no aloja ningun contenido mostrado.
-		Todo el contenido se encuentra libremente en internet.
-		No se acepta ninguna responsabilidad por el uso de este addon.
-			
-		¡Disfruta!
-		</description>
-		<platform>all</platform>
+    <summary lang="en_gb">mitelemovistar</summary>
+    <description lang="en_gb">mitelemovistar</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
   </extension>
 </addon>
